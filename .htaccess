@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+RewriteEngine on
+
+RewriteRule .*-([0-9]*)\.html$ ?id=$1 [L]

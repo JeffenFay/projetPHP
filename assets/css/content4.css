@@ -1,0 +1,25 @@
+form{
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px solid;
+  padding: 10px;
+  display: block;
+  margin: 20px auto;
+}
+iframe{
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  form,
+  iframe{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 360px) {
+  form,
+  iframe{
+    width: 98%;
+  }
+}

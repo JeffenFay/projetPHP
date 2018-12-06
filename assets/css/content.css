@@ -1,0 +1,86 @@
+body, html{
+  background-color: #FFF;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+main{
+  margin-top: 20px;
+}
+main > div > div{
+  background-color: #AAA;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 80%;
+}
+nav{
+  background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+  box-shadow: 0 0 10px black;
+}
+h1, h2{
+  text-align:  center;
+}
+h1{
+  color: #003273;
+}
+h2{
+  margin-top: 20px;
+  color: #0065b1;
+}
+p{
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+}
+
+
+.img {
+  text-align: center;
+  width: 50vw;
+  max-width:90%;
+  box-shadow: 0 0 12px 1px black;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 0.2s ease-out;
+}
+.img:hover {
+  width: 60vw;
+}
+.img img {
+  width: 90%;
+  border-radius: 5px;
+  border: solid 1px;
+}
+.caption-text{
+  color: #073567;
+  font-size: 1.2rem;
+  text-align: left;
+  width: 100%;
+  min-width:4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    text-align: center;
+    width: 70vw;
+    transition: all 0.2s ease-out;
+  }
+  .img:hover {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .img {
+    text-align: center;
+    width: 40vw;
+    transition: all 0.2s ease-out;
+  }
+  .img:hover {
+    width: 45vw;
+  }
+}

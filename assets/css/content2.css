@@ -1,0 +1,26 @@
+p iframe{
+  display: block;
+  margin: 20px auto;
+  height: 30vw;
+  min-height: 400px;
+}
+
+h3 {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+  margin-top: 50px;
+}
+ul{
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.firstP{
+  margin-top: 20px;
+}
+
+.lastP{
+  margin-bottom: 20px;
+}

@@ -25,6 +25,8 @@ if( isset($_GET['id']) ){
   $titre = $page->getElementsByTagName('title')->item(0)->nodeValue;
   $menu = $page->getElementsByTagName('menu')->item(0)->nodeValue;
   $content = $page->getElementsByTagName('content')->item(0)->nodeValue;
+}else{
+  header('Location: /?id=1');
 }
 
 ?>
@@ -35,10 +37,14 @@ if( isset($_GET['id']) ){
   <title><?= $titre; ?></title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/site.css" />
-  <link rel="stylesheet" href="/css/nav.css" />
-  <link rel="stylesheet" href="/css/content.css" />
-  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <link rel="stylesheet" href="assets/css/nav.css" />
+  <link rel="stylesheet" href="assets/css/content.css" />
+  <link rel="stylesheet" href="assets/css/content1.css" />
+  <link rel="stylesheet" href="assets/css/content2.css" />
+  <link rel="stylesheet" href="assets/css/content3.css" />
+  <link rel="stylesheet" href="assets/css/content4.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
 </head>
 <body>
   <?php include('nav.php') ?>

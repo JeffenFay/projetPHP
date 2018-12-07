@@ -8,14 +8,20 @@ header.container-fluid > div > div {
 .navbar-brand{
     outline: none;
 }
+.navbar-light .navbar-brand{
+    color: DimGray ;
+}
 .navbar-nav *{
     outline: none;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: DimGray ;
 }
 .companyName{
     font-weight: 700;
 }
 #hammer, #screwdriver{
-    color: darkslategray;
+    color: DimGray;
     margin-top: -0.25rem;
 }
 #hammer {

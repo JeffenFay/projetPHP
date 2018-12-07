@@ -2,7 +2,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© <?= date('Y') ?> Copyright:
-      <a href="https://github.com/JeffenFay/projetPHP"> Projet PHP team Angela Jeffen thibaut, Florent </a>
+      <a class="link" href="https://github.com/JeffenFay/projetPHP"> Projet PHP team Angela Jeffen thibaut, Florent </a>
     </div>
     <!-- Copyright -->
 

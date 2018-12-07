@@ -11,6 +11,19 @@ header.container-fluid > div > div {
 .navbar-nav *{
     outline: none;
 }
+.companyName{
+    font-weight: 700;
+}
+#hammer, #screwdriver{
+    color: darkslategray;
+    margin-top: -0.25rem;
+}
+#hammer {
+    margin-left: 0.5rem;
+}
+#screwdriver{
+    margin-right: 0.5rem;
+}
 @media screen and (max-width: 768px) {
   .navbar-expand-lg .navbar-nav {
     padding-left: 1rem;

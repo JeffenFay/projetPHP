@@ -33,8 +33,6 @@ p{
   text-align: justify;
   margin: auto;
 }
-
-
 .img {
   text-align: center;
   width: 50vw;
@@ -62,7 +60,6 @@ p{
   min-width:4rem;
   text-align: center;
 }
-
 @media screen and (max-width: 768px) {
   .img {
     text-align: center;
@@ -72,8 +69,10 @@ p{
   .img:hover {
     width: 90vw;
   }
+  .navbar-expand-lg .navbar-nav {
+    padding-left: 1rem;
+  }
 }
-
 @media screen and (min-width: 1000px) {
   .img {
     text-align: center;

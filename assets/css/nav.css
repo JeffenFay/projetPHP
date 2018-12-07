@@ -1,5 +1,6 @@
-.container-fluid{
-  padding: 0 0;
+header.container-fluid > div > div {
+  padding-right: 0;
+  padding-left: 0;
 }
 .navbar-expand-lg .navbar-nav {
     padding-left: 5.5rem;

@@ -5,6 +5,7 @@ header.container-fluid > div > div {
 .navbar-expand-lg .navbar-nav {
     padding-left: 5.5rem;
 }
+
 .navbar-brand{
     outline: none;
 }
@@ -17,17 +18,24 @@ header.container-fluid > div > div {
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: DimGray ;
 }
-#toolbox{
-    color: gray;
+.navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: black ;
 }
-#hammer, #wrench{
+.companyName{
+    font-weight: 700;
+}
+#hammer, #screwdriver{
+    margin-top: -0.25rem;
+}
+
+.fa-stack:hover{
     color: black;
 }
 #hammer {
-    padding-right: 0.5rem;
+    margin-left: 0.5rem;
 }
-#hammer, #wrench{
-    padding-left: 0.5rem;
+#screwdriver{
+    margin-right: 0.5rem;
 }
 @media screen and (max-width: 768px) {
   .navbar-expand-lg .navbar-nav {

@@ -1,0 +1,17 @@
+.quote {
+    text-align: center;
+    max-width: 50%;
+    box-shadow: 0 0 12px 1px black;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.quote p {
+    width: 90%;
+}
+.endorsement{
+    margin-top: 20px;
+    font-style: italic;
+    color: black;
+}

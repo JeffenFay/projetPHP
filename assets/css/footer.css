@@ -1,4 +1,8 @@
+.footer-copyright{
+    background-color: dimgray;
+    line-height: 0;
+    font-size: 0.7em;
+}
 .link{
     color: white;
-    font-size: 0.8em
 }

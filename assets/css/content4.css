@@ -6,6 +6,10 @@ form{
   padding: 10px;
   display: block;
   margin: 20px auto;
+  background-repeat: no-repeat, repeat;
+  background-image: url("../img/wall.png"), url("../img/paper.jpg"), ;
+  background-blend-mode: luminosity;
+  
 }
 iframe{
   width: 90%;

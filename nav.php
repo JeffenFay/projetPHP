@@ -5,7 +5,7 @@
     <div class="col-12">
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
           <a class="navbar-brand" href="/"><span class="companyName">OCORDO</span>
-              <span class="fa-stack logo">
+              <span class="fa-stack">
                   <i class="fas fa-hammer fa-stack-1x" id="hammer"></i>
                   <i class="fas fa-screwdriver fa-stack-1x fa-flip-horizontal" id="screwdriver"></i>
               </span>

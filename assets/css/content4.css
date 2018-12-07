@@ -10,7 +10,14 @@ form{
 iframe{
   width: 90%;
 }
-
+.map {
+    max-width: 80%;
+    box-shadow: 0 0 8px 1px darkgray;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+}
 @media screen and (max-width: 600px) {
   form,
   iframe{

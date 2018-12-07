@@ -1,3 +1,36 @@
-.container-fluid{
-  padding: 0 0;
+header.container-fluid > div > div {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-expand-lg .navbar-nav {
+    padding-left: 5.5rem;
+}
+.navbar-brand{
+    outline: none;
+}
+.navbar-light .navbar-brand{
+    color: DimGray ;
+}
+.navbar-nav *{
+    outline: none;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: DimGray ;
+}
+#toolbox{
+    color: gray;
+}
+#hammer, #wrench{
+    color: black;
+}
+#hammer {
+    padding-right: 0.5rem;
+}
+#hammer, #wrench{
+    padding-left: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .navbar-expand-lg .navbar-nav {
+    padding-left: 1rem;
+  }
 }

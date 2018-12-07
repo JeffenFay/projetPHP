@@ -1,9 +1,24 @@
-p {
-    color: red;
+form{
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px solid;
+  padding: 10px;
+  display: block;
+  margin: 20px auto;
 }
-#liId{
-    margin-top: 20px;
+iframe{
+  width: 90%;
 }
-input{
-    max-width: 30%;
+
+@media screen and (max-width: 600px) {
+  form,
+  iframe{
+    width: 80%;
+  }
 }
+@media screen and (max-width: 360px) {
+  form,
+  iframe{
+    width: 98%;
+  }

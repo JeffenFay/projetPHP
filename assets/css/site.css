@@ -1,0 +1,15 @@
+html,body{
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+main,
+main > div{
+  min-height: 100%;
+}
+.flex-stretch{
+  display: flex;
+  align-items: stretch;
+}

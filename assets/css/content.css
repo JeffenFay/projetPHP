@@ -45,6 +45,10 @@ p{
     font-weight: 100;
   
 }
+p.caption-text{
+    font-size: 0.8em;
+    margin-top: 10px;
+}
 li{
     color: darkslategray;
 }
@@ -64,11 +68,12 @@ label{
     transition: all 0.2s ease-out;
 }
 .img:hover {
-    width: 60vw;
+    width: 90vw;
 }
+
 .img img {
     width: 90%;
-    border-radius: 5px;
+    border-radius: 3px;
     border: solid 1px;
 }
 .caption-text{
@@ -94,10 +99,10 @@ label{
 @media screen and (min-width: 1000px) {
     .img {
         text-align: center;
-        width: 40vw;
+        width: 25vw;
         transition: all 0.2s ease-out;
     }
     .img:hover {
-        width: 45vw;
+        width: 35vw;
     }
 }

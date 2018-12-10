@@ -15,3 +15,9 @@
     font-style: italic;
     color: black;
 }
+@media screen and (max-width: 768px) {
+  .quote {
+    max-width: 90%;
+    max-height: 180vw;
+  }
+}

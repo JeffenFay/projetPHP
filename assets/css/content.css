@@ -83,6 +83,7 @@ label{
     width: 100%;
     min-width:4rem;
     text-align: center;
+	font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {

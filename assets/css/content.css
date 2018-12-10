@@ -77,8 +77,9 @@ label{
     border: solid 1px;
 }
 .caption-text{
-    color: grey;
+    color: darkslategray;
     font-size: 1.2rem;
+    font-weight: 400;
     text-align: left;
     width: 100%;
     min-width:4rem;
